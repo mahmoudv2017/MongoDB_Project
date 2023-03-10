@@ -1,0 +1,12 @@
+<%- include('./partials/header.ejs') %> 
+
+<ul>
+    <% results.forEach(function(mascot) { %>
+        <li>
+          <strong><%= mascot.title %></strong>
+          <strong><%= mascot.username %></strong>
+        </li>
+      <% }); %>
+</ul>
+
+<%- include('./partials/footer.ejs') %> 

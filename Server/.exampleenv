@@ -1,0 +1,5 @@
+PORT=5000
+SECRET=mySecret
+PEPPER="my personal pepper"
+SALT_ROUNDS = 10
+EXPIRATION_TIME = 10
